@@ -1,0 +1,16 @@
+html, body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: whitesmoke;
+  background-color: #2a2a2e;
+}
+.a {
+  color: whitesmoke;
+  text-decoration: none;	
+}
+a:visited{
+  color: whitesmoke;
+  text-decoration: none;	
+}
+.hidden {
+  display: none;
+}
