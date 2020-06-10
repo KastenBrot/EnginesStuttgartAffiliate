@@ -10,6 +10,13 @@
     "300": "Engines_Logo_300.png"
   },
 
+  "content_scripts": [
+    {
+      "matches": ["*://*.mmoga.de/"],
+      "js": ["mmoga.js"]
+    }
+  ],
+  
   "permissions": [
     "activeTab"
   ],
