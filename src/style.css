@@ -2,6 +2,7 @@ html, body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: whitesmoke;
   background-color: #2a2a2e;
+  width: 210px;
 }
 .a {
   color: whitesmoke;
@@ -13,4 +14,13 @@ a:visited{
 }
 .hidden {
   display: none;
+}
+.logo {
+  width: 50%;
+  align-items: center;
+}
+.logo-wrapper {
+  margin-top: 21px;
+  width: 100%;
+  text-align: center;
 }
