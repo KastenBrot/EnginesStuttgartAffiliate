@@ -1,0 +1,68 @@
+html, body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: whitesmoke;
+  background-color: #2a2a2e;
+  width: 420px;
+}
+.a {
+  color: whitesmoke !important;
+  text-decoration: none !important;
+}
+a:visited{
+  color: whitesmoke;
+  text-decoration: none;	
+}
+.hidden {
+  display: none;
+}
+.logo {
+  width: 30%;
+  align-items: center;
+}
+.logo-wrapper {
+  margin-top: 69px;
+  width: 100%;
+  text-align: center;
+}
+.btn  {
+  font-size: 1.3em;
+  width: 100%;
+  border: 1px solid whitesmoke;
+  table-layout: fixed;
+  border-collapse: collapse;
+  padding: .3em;
+  text-decoration: none !important;
+  color: whitesmoke;
+  transition: all .4s;
+}
+.btn:hover {
+  color: #2a2a2e; 
+  background-color: white;
+  border-color: white;
+}
+
+.version {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  font-size: .6em;
+} 
+
+table {
+  text-align: center;
+}
+td {
+  padding: .6em;
+}
+
+#popup-content {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+.headline {
+  padding-left: .6em;
+}

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Engines Stuttgart e.V. - Affiliat Links",
+  "version": "1.0",
+
+  "description": "Popup with all our Affiliate Links to support our eSports Club.",
+  "homepage_url": "https://engines-stuttgart.de",
+
+  "icons": {
+    "300": "Engines_Logo_300.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mmoga.de/"],
+      "js": ["mmoga.js"]
+    }
+  ],
+  
+  "permissions": [
+    "activeTab"
+  ],
+
+ "browser_action": {
+    "default_icon": "Engines_Logo_300.png",
+    "default_title": "Engines Stuttgart e.V. Affiliates",
+    "default_popup": "popup.html"
+  }
+}
