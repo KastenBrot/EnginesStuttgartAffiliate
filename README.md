@@ -1,2 +1,2 @@
 # EnginesStuttgartAffiliate
-Browser-Extension for all the Affiliate Programm the Engines Stuttgart e.V. participates in.
+Browser-extension for all the affiliate programm the Engines Stuttgart e.V. participates in.
